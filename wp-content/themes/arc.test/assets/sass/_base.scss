@@ -49,3 +49,38 @@ section {
 .icon {
   display: inline-block;
 }
+
+.main-title {
+  color: $text-color4;
+  font-family: $font-family--montserrat;
+  font-size: $font-size-h1;
+  font-weight: $font-weight;
+  letter-spacing: -0.07px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: $text-color;
+  font-family: $font-family--montserrat;
+  font-size: $font-size-h2;
+  font-weight: $font-weight;
+  letter-spacing: -0.06px;
+  text-transform: uppercase;
+}
+
+.section-paragraph {
+  color: $text-color2;
+  font-family: $font-family--openSans;
+  font-size: $font-size2;
+  font-weight: $font-weight;
+  letter-spacing: -0.02px;
+}
+
+.sfa {
+  color: #4d5363;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02px;
+  text-transform: uppercase;
+}

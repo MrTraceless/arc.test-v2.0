@@ -42,7 +42,7 @@ endif; ?>
     <div class="menu-wrapper">
       <span class="menu__title">menu</span>
       <div class="menu-burger">
-        <span class="line1 menu-burger__item"></span>
+        <span class="menu-burger__item"></span>
       </div>
     </div>
 

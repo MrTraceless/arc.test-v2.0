@@ -1,14 +1,14 @@
 	<footer class="footer" role="contentinfo">
 
-		<div class="page-container">
-
+		<div class="page-container footer-row">
+      <div class="footer-container">
 			<div class="footer__logo">
-				<a href="#">
-				STRUCTURES
-				</a>
+        <a href="<?php home_url() ?>">
+        <img alt="" src="<?php echo get_field('footer_logo', 'options'); ?>">
+        </a>
 			</div>
 
-			<div class="address-block">
+			<div class="footer-address-block">
 				<p class="address-block">3900 WESTERN WAY NE,
 				MILLERSBURG, OR 97321
 				</p>
@@ -16,16 +16,22 @@
 				<p>FAX: (541) 367-2950</p>
 			</div>
 
-			<div class="menu-block">
+			<div class="footer-menu-block">
 
 			</div>
 
-			<div class="subs-block">
+			<div class="footer-subs-block">
 
 			</div>
 
-		</div>
+		  </div>
 
+      <div class="footer-social-block">
+
+      </div>
+
+    </div>
+    </div>
 	</footer>
 
 <?php wp_footer(); ?>

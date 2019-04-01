@@ -7,6 +7,8 @@
   position: fixed;
   z-index: 1;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 30px 405px;
 
 
@@ -24,21 +26,31 @@
       color: $bg-color;
       margin-left: 5px;
       margin-right: 5px;
+
+      &:hover {
+        color: #757d96;
+        transition: all .8s;
+      }
     }
   }
 }
 
 .main-nav {
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 100vw;
   right: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1000;
-  background-color: red;
+  z-index: 10;
+  background-color: #f6f6f6;
+  transition: all .8s;
+
+  &__active {
+    left: 0;
+  }
 }
 
 .main-nav__list ul{
@@ -55,6 +67,7 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
+  z-index: 20;
 }
 
 .menu__title {
